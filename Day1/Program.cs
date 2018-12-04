@@ -1,12 +1,14 @@
-﻿using System;
-
-namespace Day1
+﻿namespace Day1
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string inputFilePath = @"PuzzleInput\input.txt";
+
+            var answerA = PuzzleA.GetFrequency(inputFilePath);
+
+            var answerB = PuzzleB.GetFrequency(inputFilePath);
         }
     }
 }
