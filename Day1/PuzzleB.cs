@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Helpers;
+using System.Collections.Generic;
 using System.IO;
 
 namespace Day1

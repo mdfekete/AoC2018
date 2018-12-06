@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Day2
+namespace Day3
 {
     class Program
     {
@@ -8,9 +8,9 @@ namespace Day2
         {
             string inputFilePath = @"PuzzleInput\input.txt";
 
-            int checksumA = PuzzleA.GetChecksum(inputFilePath);
+            int overlapArea = PuzzleA.GetOverlapArea(inputFilePath);
 
-            string commonLetters = PuzzleB.GetCommonLetters(inputFilePath);
+            int claimId = PuzzleB.GetNonOverlappedClaim(inputFilePath);
         }
     }
 }
